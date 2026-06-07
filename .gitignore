@@ -1,0 +1,46 @@
+# Secrets — never commit these
+.env
+*.key
+*.pem
+
+# Python virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Streamlit secrets (keep config.toml, not secrets)
+.streamlit/secrets.toml
+
+# Environment secrets
+.env
+.env.*
+~$*
+
