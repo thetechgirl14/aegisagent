@@ -5,12 +5,9 @@
 > *Microsoft Build AI 2026 — Track: Security in the Agentic Future*
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit-34d399?style=flat-square)](https://aegisagent-thetechgirl.streamlit.app/)
-
-[![GitHub](https://img.shields.io/badge/GitHub-thetechgirl14%2Faegisagent-blue?style=flat-square)](https://github.com/thetechgirl14/aegisagent)
-
-[![Python](https://img.shields.io/badge/Python-3.11+-yellow?style=flat-square)](https://python.org)
-
-[![Azure OpenAI](https://img.shields.io/badge/Azure-OpenAI-0078d4?style=flat-square)](https://azure.microsoft.com/en-us/products/ai-services/openai-service)
+ [![GitHub](https://img.shields.io/badge/GitHub-thetechgirl14%2Faegisagent-blue?style=flat-square)](https://github.com/thetechgirl14/aegisagent)
+ [![Python](https://img.shields.io/badge/Python-3.11+-yellow?style=flat-square)](https://python.org)
+ [![Azure OpenAI](https://img.shields.io/badge/Azure-OpenAI-0078d4?style=flat-square)](https://azure.microsoft.com/en-us/products/ai-services/openai-service)
 
 
 **[→ Try the live interactive demo](https://aegisagent-thetechgirl.streamlit.app/)** — no login, no setup. Click "Run Benign Session", then "Inject Attack" and watch all three layers respond in real time.
