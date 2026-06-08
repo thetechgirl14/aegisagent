@@ -1,11 +1,22 @@
 """
-agent_framework — lightweight shim over the Azure OpenAI SDK.
+agent_framework — Neumann Nexus Azure OpenAI Agent SDK
+=======================================================
+Lightweight, self-owned agent SDK wrapping Azure OpenAI.
+No third-party agent framework dependency.
 
-Provides the Agent and Message primitives used throughout AegisAgent so the
-pipeline is self-contained and can be run directly without any third-party
-agent orchestration dependency.
+Full implementation available under licence — contact: kattrahill@inthenexus.tech
 """
 
-from .core import Agent, Message
+from dataclasses import dataclass
+from typing import List
 
-__all__ = ["Agent", "Message"]
+
+@dataclass
+class Message:
+    """A single conversation message."""
+    role: str   # "system" | "user" | "assistant"
+    content: List[str]
+
+    @property
+    def text(self) -> str:
+        return " ".join(self.content) if self.content else ""
